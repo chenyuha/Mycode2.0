@@ -1,6 +1,7 @@
 html{
 	background-image: url(/11.jpg);
 	background-position: center center;
+background-position: center center;
     height: 100%;	
 }
 /*�����������ʽ*/
@@ -8,7 +9,7 @@ html{
 	width: 10px;
 	height: 10px;
 	/*�ı���������,ͼƬ�����ƶ�*/
-	margin: 200px 400px;
+	margin: 800px 150px;
 	position: relative;
 	
 }
