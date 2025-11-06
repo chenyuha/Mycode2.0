@@ -1,17 +1,18 @@
 html{
-	background:pink;
+	background-image: url(/11.jpg);
+	background-position: center center;
     height: 100%;	
 }
-/*×îÍâ²ãÈİÆ÷ÑùÊ½*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
 .wrap{
 	width: 10px;
 	height: 10px;
-	/*¸Ä±ä×óÓÒÉÏÏÂ,Í¼Æ¬·½¿éÒÆ¶¯*/
+	/*ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½*/
 	margin: 200px 400px;
 	position: relative;
 	
 }
-/*°ü¹üËùÓĞÈİÆ÷ÑùÊ½*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
 .cube{
 	width:600px;
 	height:400px;
@@ -19,7 +20,7 @@ html{
 	transform-style: preserve-3d;
 	transform: rotateX(-30deg) rotateY(-80deg);
 	-webkit-animation: rotate 20s infinite;
-	/*ÔÈËÙ*/
+	/*ï¿½ï¿½ï¿½ï¿½*/
 	animation-timing-function: linear;
 }
 @-webkit-keyframes rotate{
@@ -33,7 +34,7 @@ html{
 	opacity: 0.8;
 	transition: all .4s;
 }
-/*¶¨ÒåËùÓĞÍ¼Æ¬ÑùÊ½*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ê½*/
 .pic{
 	width: 300px;
 	height: 300px;
@@ -56,7 +57,7 @@ html{
 .cube .out_bottom{
 	transform: rotateX(-90deg) translateZ(150px);
 }
-/*¶¨ÒåĞ¡Õı·½ÌåÑùÊ½*/
+/*ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
 .cube span{
 	display: bloack;
 	width: 200px;
@@ -87,7 +88,7 @@ html{
 .cube .in_bottom{
 	transform: rotateX(-90deg) translateZ(100px);
 }
-/*Êó±êÒÆÈëºóÑùÊ½*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
 .cube:hover .out_front{
 	transform: rotateY(0deg) translateZ(400px);
 }
